@@ -1,7 +1,7 @@
 import java.awt.*;
 import java.awt.event.*;
 
-public class Question2 extends Frame implements ActionListener {
+public class Question2_MenuBar_24RP03297 extends Frame implements ActionListener {
 
     private CardLayout cardLayout = new CardLayout();
     private Panel mainContentPanel = new Panel(cardLayout);
@@ -14,7 +14,7 @@ public class Question2 extends Frame implements ActionListener {
     private static final String STUDENT_NAME = "Meekness Bonheur";
     private static final String REG_NUMBER = "24rp03297";
 
-    public Question2() {
+    public Question2_MenuBar_24RP03297() {
         setTitle("AWT MENU Practice");
         setSize(600, 400);
         setLayout(new BorderLayout());
@@ -195,6 +195,6 @@ public class Question2 extends Frame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new Question2();
+        new Question2_MenuBar_24RP03297();
     }
 }
