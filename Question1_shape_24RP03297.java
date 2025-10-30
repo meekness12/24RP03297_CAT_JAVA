@@ -1,9 +1,9 @@
 import java.awt.*;
 import java.awt.event.*;
 
-public class Question1 extends Frame {
+public class Question1_shape_24RP03297 extends Frame {
 
-    public Question1() {
+    public Question1_shape_24RP03297() {
         // Frame title
         setTitle("My shapes");
         setSize(400, 300);
@@ -37,6 +37,6 @@ public class Question1 extends Frame {
     }
 
     public static void main(String[] args) {
-        new Question1();
+        new Question1_shape_24RP03297();
     }
 }
